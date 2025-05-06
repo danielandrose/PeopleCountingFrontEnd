@@ -1,0 +1,16 @@
+.log-container{
+    display:flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+.count-detail{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 0px;
+}

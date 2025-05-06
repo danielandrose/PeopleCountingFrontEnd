@@ -19,7 +19,7 @@ function App() {
           <DoughtNut />
         </div>*/}
       </div>
-      <div>
+      <div className="logs">
         <Logs />
       </div>
       <div className="line-chart">
