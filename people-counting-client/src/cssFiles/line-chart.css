@@ -1,0 +1,12 @@
+.line-chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 900px;
+    height: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-bottom: 30px;
+    border: 1px solid black;
+}

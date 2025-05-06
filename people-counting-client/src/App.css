@@ -1,0 +1,22 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-sub-container{
+    display: flex;
+    width:100%;
+    margin:10px;
+    justify-content: space-around;
+}
+
+.drop-down{
+    width:100%;
+}
+
