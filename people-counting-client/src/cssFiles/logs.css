@@ -14,3 +14,7 @@ li{
     justify-content: center;
     margin: 10px 0px;
 }
+
+.date-dropdown{
+    width:135px
+}

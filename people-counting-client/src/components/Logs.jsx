@@ -90,7 +90,7 @@ export default function Logs() {
                 <div>
                     <div style={{ marginBottom: '1rem' }}>
                         <label htmlFor="dateSelect">Select Date: </label>
-                        <select
+                        <select className='date-dropdown'
                             id="dateSelect"
                             value={selectedDate}
                             onChange={e => setSelectedDate(e.target.value)}
