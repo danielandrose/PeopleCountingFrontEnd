@@ -82,7 +82,7 @@ export default function Logs() {
         <div className="log-container">
             {!openLogs ? (
                 <div>
-                    <button onClick={handleOpenLogs}>Open Logs</button>
+                    <button className="open-log-button" onClick={handleOpenLogs}>Open Logs</button>
                 </div>
             ) : loading ? (
                 <p>Loading logs...</p>
@@ -101,7 +101,7 @@ export default function Logs() {
                                 </option>
                             ))}
                         </select>
-                        <button onClick={handleDownload} style={{ marginLeft: '1rem' }}>
+                        <button className="open-log-button" onClick={handleDownload} style={{ marginLeft: '1rem' }}>
                             Download
                         </button>
                     </div>

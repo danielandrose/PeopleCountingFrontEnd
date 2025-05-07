@@ -8,6 +8,7 @@
 .main-container{
     display: flex;
     flex-direction: column;
+    background-color: #f0ebf8;
 }
 
 .main-sub-container{
